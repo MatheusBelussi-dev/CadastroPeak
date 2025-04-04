@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakInvest.API", "PeakInvest.API\PeakInvest.API.csproj", "{0B4E2AFC-533F-410B-934E-20E2B2C38304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakInvest.Domain", "PeakInvest.Domain\PeakInvest.Domain.csproj", "{20C239F7-3ADE-4FE4-B450-2ECF7DD8FDF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakInvest.Application", "PeakInvest.Application\PeakInvest.Application.csproj", "{1D518E7D-BA98-48DE-BBD0-DCD5FDB3CAA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakInvest.Infrastructure", "PeakInvest.Infrastructure\PeakInvest.Infrastructure.csproj", "{BB629220-21FF-4AB3-B976-CAD337983CB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B4E2AFC-533F-410B-934E-20E2B2C38304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4E2AFC-533F-410B-934E-20E2B2C38304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4E2AFC-533F-410B-934E-20E2B2C38304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4E2AFC-533F-410B-934E-20E2B2C38304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C239F7-3ADE-4FE4-B450-2ECF7DD8FDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C239F7-3ADE-4FE4-B450-2ECF7DD8FDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C239F7-3ADE-4FE4-B450-2ECF7DD8FDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C239F7-3ADE-4FE4-B450-2ECF7DD8FDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D518E7D-BA98-48DE-BBD0-DCD5FDB3CAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D518E7D-BA98-48DE-BBD0-DCD5FDB3CAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D518E7D-BA98-48DE-BBD0-DCD5FDB3CAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D518E7D-BA98-48DE-BBD0-DCD5FDB3CAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB629220-21FF-4AB3-B976-CAD337983CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB629220-21FF-4AB3-B976-CAD337983CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB629220-21FF-4AB3-B976-CAD337983CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB629220-21FF-4AB3-B976-CAD337983CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
