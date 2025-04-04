@@ -96,3 +96,4 @@ O projeto segue os princípios do Domain-Driven Design (DDD) e SOLID:
 - O backend está configurado para desabilitar o redirecionamento HTTPS em ambiente de desenvolvimento
 - O frontend está configurado para se comunicar com o backend na porta 7052
 - A aplicação usa Bootstrap para estilização
+- Abra o frontend (somente a pasta PeakInvest.Web) no Visual Studio Code e execute script de execução no terminal. 
