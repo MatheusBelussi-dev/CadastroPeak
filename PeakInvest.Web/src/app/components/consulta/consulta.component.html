@@ -1,0 +1,11 @@
+<div class="container mt-4">
+  <h2>Consulta</h2>
+  <div class="form-group">
+    <label for="id">ID:</label>
+    <input type="number" class="form-control" id="id" [(ngModel)]="id" name="id" required min="1" max="3">
+  </div>
+  <button class="btn btn-primary mt-3" (click)="buscar()">Buscar</button>
+  <div *ngIf="nome" class="resultado">
+    <p>Nome encontrado: {{ nome }}</p>
+  </div>
+</div> 
