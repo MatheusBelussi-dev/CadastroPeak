@@ -42,7 +42,6 @@ O projeto está organizado em duas partes principais:
 
 4. A API estará disponível em:
    - https://localhost:7052 (HTTPS)
-   - http://localhost:5052 (HTTP)
    - Swagger UI: https://localhost:7052/swagger
 
 ### Frontend
